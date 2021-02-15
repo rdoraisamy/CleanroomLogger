@@ -12,8 +12,8 @@ let package = Package(
     targets: [
         .target(
             name: "CleanroomLogger",
-            exclude:["Readme.md"],
             dependencies: [],
+            exclude:["Readme.md"],
             path: "Sources"),
     ]
 )
